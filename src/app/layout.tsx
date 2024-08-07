@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import localFont from "next/font/local";
+import "bootstrap-icons/font/bootstrap-icons.css";
+// const inter = Inter({ subsets: ["latin"] });
+const myFont = localFont({
+  src: "../fonts/Vazir.woff2",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={myFont.className}>
+      <body>{children}</body>
     </html>
   );
 }
