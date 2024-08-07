@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": " برگزار شد",
+    "tagline": "رویداد کافه کارآفرینی صدرا ",
+    "image": "https://uploads.storage.iran.liara.space/IMG_20240430_120808-qni7v62i9jhnggu31264bxnmqxyxgnal7gfr86lhco.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "مشاهده ",
+        "link": "https://uploads.storage.iran.liara.space/1679666743023slider-asl.jpg",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "  ",
+    "tagline": "بازدید سرپرست معاونت فناوری و نوآوری پارك علم و فناوری خوزستان از شرکت های فن آور",
+    "image": "https://uploads.storage.iran.liara.space/7564-qqtf52kxi51mqjfwuxwlmge5dem8cimcpome96t4ke.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "مشاهده",
+        "link": "https://uploads.storage.iran.liara.space/1679678435072CarImage10175686_0_thumb_900_600.jpeg",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  }
+]
