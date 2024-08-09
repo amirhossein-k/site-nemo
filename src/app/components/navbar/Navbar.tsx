@@ -58,7 +58,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className=" navbar hidden md:flex  bg-[#0F6983]   flex-row justify-center gap-9   border rounded-md md:w-[90%] ">
+    <nav className=" navbar hidden md:flex z-20  bg-[#0F6983]   flex-row justify-center gap-9   border rounded-md md:w-[90%] ">
       {menu.map((menuItem) => {
         return (
           <div
