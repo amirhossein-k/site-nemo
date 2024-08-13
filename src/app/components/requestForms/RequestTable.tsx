@@ -55,7 +55,7 @@ const RequestTable = () => {
     },
   ];
   return (
-    <div className=" h-[180px] w-[96%] mx-auto flex gap-3  mt-12">
+    <div className=" h-[220px] w-[96%] mx-auto flex gap-3  mt-12 bg-emerald-200">
       {formD.map((itemForm) => {
         return (
           <div
@@ -67,7 +67,7 @@ const RequestTable = () => {
                 className={`${itemForm.icon} text-3xl font-extrabold text-[#0a47c9]`}
               ></i>
             </span>
-            <div className="flex  -my-3 flex-col bg-[#0F6983] gap-2 justify-center items-center rounded-lg h-full">
+            <div className="flex  -my-3 flex-col py-3 bg-[#0F6983] gap-2 justify-center items-center rounded-lg ">
               <h2 className="text-white ">{itemForm.title}</h2>
               <div className="border border-b-2 w-16"></div>
               <div className="flex gap-1 mt-10 ">
