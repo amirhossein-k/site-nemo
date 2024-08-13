@@ -63,13 +63,13 @@ const Navbar = () => {
         return (
           <div
             key={menuItem.url}
-            className=" parent-home  dropdown dropdown-hover flex flex-row gap-2 justify-center items-center text-white text-sm font-medium  border-l-2 last:border-l-0 px-2  cursor-pointer"
+            className=" parent-home  dropdown dropdown-hover  flex flex-row gap-2 justify-center items-center text-white text-sm font-medium  border-l-2 last:border-l-0 px-2  cursor-pointer"
           >
             <div className="">
               <div
                 tabIndex={0}
                 role="menuitem"
-                className="flex w-full items-center gap-2 flex-row m-1"
+                className="flex w-full items-center  gap-2 flex-row m-1"
               >
                 <div className="sm:text-[14px]  text-[14px]">
                   {menuItem.menuName}
@@ -89,7 +89,7 @@ const Navbar = () => {
                   return (
                     <li
                       key={subItem.menuName}
-                      className="hover:bg-[#0F6983] hover:text-white w-full h-full p-2 py-3 rounded-md"
+                      className="hover:bg-[#0F6983]  hover:text-white w-full h-full p-2 py-3 rounded-md"
                     >
                       <Link href={"/aa"}>{subItem.menuName}</Link>
                     </li>

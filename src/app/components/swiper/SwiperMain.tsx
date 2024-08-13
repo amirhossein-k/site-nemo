@@ -23,6 +23,7 @@ interface DemoSliderProps {
 }
 // Our custom button component
 import SliderButtons from "./SliderButtons";
+import Image from "next/image";
 const SwiperMain: React.FC<DemoSliderProps> = ({ data }) => {
   return (
     <section className="w-full ">
@@ -40,10 +41,12 @@ const SwiperMain: React.FC<DemoSliderProps> = ({ data }) => {
               <SwiperSlide key={id}>
                 <div
                   className="h-full w-full absolute left-0 top-0"
-                  style={{
-                    background: `url(${image})  cover scroll no-repeat`,
-                  }}
-                ></div>
+                  // style={{
+                  //   background: `url(${image})  cover scroll no-repeat`,
+                  // }}
+                >
+                  <Image alt="" src={image} fill />
+                </div>
                 <div className="h-full w-full absolute left-0 top-0 bg-black opacity-20"></div>
                 <div className="relative z-10 h-full flex items-center justify-center">
                   <div className="text-center">

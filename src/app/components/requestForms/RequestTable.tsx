@@ -62,10 +62,12 @@ const RequestTable = () => {
             className={`flex-1   relative hidden md:block`}
             key={itemForm.title}
           >
-            <span className="z-50 h-[50px] w-[50px]  bg-[#b7edfcf1] p-3 mx-auto rounded-md flex justify-center items-center">
-              <i className={`${itemForm.icon} text-3xl font-extrabold `}></i>
+            <span className="z-50 h-[50px] w-[50px]  bg-[#99fff7] p-3 mx-auto rounded-md flex justify-center items-center">
+              <i
+                className={`${itemForm.icon} text-3xl font-extrabold text-[#0a47c9]`}
+              ></i>
             </span>
-            <div className="flex  -my-3 flex-col bg-[#087c9c] gap-2 justify-center items-center rounded-lg h-full">
+            <div className="flex  -my-3 flex-col bg-[#0F6983] gap-2 justify-center items-center rounded-lg h-full">
               <h2 className="text-white ">{itemForm.title}</h2>
               <div className="border border-b-2 w-16"></div>
               <div className="flex gap-1 mt-10 ">
@@ -73,7 +75,7 @@ const RequestTable = () => {
                   return (
                     <div
                       key={subItem.title}
-                      className="border  cursor-pointer hover:bg-slate-300 bg-white text-[#087c9c] px-3 py-2 rounded-lg"
+                      className="border   cursor-pointer hover:bg-slate-300 bg-white text-[#087c9c] px-3 py-2 rounded-lg"
                     >
                       {subItem.title}
                     </div>
