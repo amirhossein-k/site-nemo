@@ -5,6 +5,7 @@ import SwiperMain from "./components/swiper/SwiperMain";
 import dataSlider from "./_data/slider-data.json";
 import RequestTable from "./components/requestForms/RequestTable";
 import LastNews from "./components/lastNews/LastNews";
+import Hemayat from "./components/hemayat/Hemayat";
 export default function Home() {
   return (
     <main className=" min-h-screen ">
@@ -12,6 +13,7 @@ export default function Home() {
       <SwiperMain data={dataSlider} />
       <RequestTable />
       <LastNews />
+      <Hemayat />
     </main>
   );
 }
