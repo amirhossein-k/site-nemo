@@ -55,7 +55,7 @@ const RequestTable = () => {
     },
   ];
   return (
-    <div className=" h-[220px] w-[96%] mx-auto flex gap-3  mt-12 bg-emerald-200">
+    <div className=" md:h-[220px] h-[120px] w-[96%] mx-auto flex gap-3  mt-12 ">
       {formD.map((itemForm) => {
         return (
           <div

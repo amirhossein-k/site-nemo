@@ -40,10 +40,15 @@ body {
     font-size: 18px;
     background: #fff;
 
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .swiper .swiper-button-next {
+    @apply bg-[#0f9cee] w-[40px] h-[48px] rounded-md text-white;
+  }
+  .swiper .swiper-button-prev {
+    @apply bg-[#0f9cee] w-[40px] h-[48px] rounded-md text-white;
   }
 
   .swiper-slide img {
